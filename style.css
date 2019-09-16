@@ -1,0 +1,151 @@
+         h1 {
+             color: rgb(255, 210, 90);
+             display: block;
+             width: 100%;
+             max-width: 680px;
+             margin: 8% auto 1%;
+             padding: 0 2%;
+             font-family: Tahoma, Verdana, Arial, sans-serif;
+             font-size: 30px;
+             line-height: 1;
+             text-align: center;
+         }
+         /*hr.new1 {
+             border: 1px solid red;
+             width: 40%;
+         }
+         */
+         
+          ::selection {
+             /* selector matches the portion of an element that is selected by a user */
+             background: #FFA996;
+             color: #0f0f0f;
+         }
+         
+         *::-moz-selection {
+             /* Code for Firefox */
+             background: #FFA996;
+             color: #0f0f0f;
+         }
+         
+         .p-responsive {
+             padding-left: 16px !important;
+             padding-right: 16px !important;
+         }
+         
+         .width-full {
+             width: 100% !important;
+         }
+         
+         .container {
+             -moz-box-sizing: border-box;
+             -webkit-box-sizing: border-box;
+             box-sizing: border-box;
+             display: block;
+             width: 100%;
+             max-width: 1200px;
+             margin: 0 auto;
+             padding: 0 20px;
+             text-align: center;
+         }
+         
+         html,
+         body {
+             width: 100%;
+             height: 100%;
+             margin: 0;
+             padding: 0;
+         }
+         
+         body {
+             display: block;
+             position: relative;
+             overflow: hidden;
+             text-align: center;
+         }
+         
+         .background {
+             position: fixed;
+             top: 0;
+             right: 0;
+             bottom: 0;
+             left: 0;
+             z-index: 1;
+         }
+         
+         .background_image {
+             -webkit-background-size: cover;
+             -o-background-size: cover;
+             background-size: cover;
+             background-position: center center;
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+             background-image: url('image/bgimg.jpg');
+         }
+         
+         .overlay {
+             position: fixed;
+             top: 0;
+             right: 0;
+             bottom: 0;
+             left: 0;
+             z-index: 10;
+             overflow: auto;
+             background-color: transparent;
+             background-color: rgba(0, 0, 0, 0.45);
+             zoom: 1;
+         }
+         
+         .background_gradient {
+             /* if you dont want the background image please to use this*/
+             background: rgb(27, 27, 27);
+             background: -webkit-linear-gradient(170deg, rgb(53, 54, 46), rgb(27, 27, 27));
+             background: -moz-linear-gradient(170deg, rgb(53, 54, 46), rgb(27, 27, 27));
+             background: -o-linear-gradient(170deg, rgb(53, 54, 46), rgb(27, 27, 27));
+             /* 170deg is gradient angle */
+             background: linear-gradient(170deg, rgb(53, 54, 46), rgb(27, 27, 27));
+             background-attachment: fixed;
+         }
+         
+         .button__list {
+             display: inline-block;
+             list-style: none;
+             text-align: center;
+         }
+         
+         .button__font {
+             position: relative;
+             font-family: Georgia, Times, "Times New Roman", serif;
+             font-size: 25px;
+             line-height: 1;
+             text-align: left;
+             color: #FF785A;
+         }
+         
+         .button__link {
+             display: inline-block;
+             margin-bottom: 20px;
+             color: #FF785A;
+             outline: none;
+             text-decoration: underline;
+         }
+         
+         .button__link_empty {
+             display: block;
+             cursor: default;
+             color: #ccc;
+             text-decoration: none;
+             margin-bottom: 20px;
+         }
+         
+         .button__font ul,
+         .button__font ol {
+             margin-left: 5px;
+             margin-bottom: 20px;
+             list-style: none;
+         }
+         
+         .button__link:hover {
+             text-decoration: none;
+             color: #FFF05A;
+         }
